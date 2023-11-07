@@ -1,0 +1,81 @@
+body{
+    background-color:  #1b2430;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Center vertically in viewport */
+  }
+.form {
+    text-align: center;
+
+  }
+.heading{
+    font-size: 60px;
+    color: rgb(237, 241, 245);
+    margin-left: 10%;
+    transform: translateX(-50%);
+    position: absolute;
+    left: 10%;
+    margin-top: 20px;
+}
+.line {
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  left: 50%;
+  width: 2px; /* Adjust the width as needed */
+  background-color: black; /* Change the color as desired */
+  transform: translateX(-50%);
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Align input fields to the right side */
+    position: absolute;
+    left: 75%;
+    transform: translateX(-50%);
+    top: 30%; 
+  }
+.head{
+    color: rgb(151, 202, 167);
+    text-align: right;
+    margin-right: 10%;
+    margin-bottom: 50px;
+    
+}
+  
+.input {
+    margin-bottom: 10px;
+
+  }
+  
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px; /* Adjust the width as needed */
+    gap: 30px;
+}
+.in{
+   margin-left: 30%;
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+}
+.in:hover {
+    background-color: #0d0853;
+}
+.link{
+  margin-top:70%;
+  color: #fff;
+  list-style: none;
+}

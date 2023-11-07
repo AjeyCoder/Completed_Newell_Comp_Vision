@@ -1,0 +1,88 @@
+/* Add your CSS styles here */
+.container-up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #1b2430;
+  }
+  
+  .header {
+    text-align: center;
+  }
+  
+  .text {
+    font-size: 60px;
+    color: rgb(237, 241, 245);
+    margin-left: 10%;
+    transform: translateX(-50%);
+    position: absolute;
+    left: 10%;
+    margin-top: 20px;
+  }
+  
+  .line {
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    left: 50%;
+    width: 2px;
+    background-color: black;
+    transform: translateX(-50%);
+  }
+  
+  .inputs-up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 75%;
+    transform: translateX(-50%);
+    top: 30%;
+  }
+  
+  .head-up {
+    color: rgb(151, 202, 167);
+    text-align: right;
+    margin-right: 10%;
+    margin-bottom: 50px;
+  }
+  
+  .input {
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+    gap: 30px;
+  }
+  
+  .up {
+    margin-left: 30%;
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .up:hover {
+    background-color: #0d0853;
+  }
+  
+  .link {
+    margin-top: 70%;
+    color: #fff;
+    list-style: none;
+  }
+  

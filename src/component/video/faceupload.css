@@ -1,0 +1,131 @@
+h1{
+    color: aliceblue;
+    font-size: xx-large;
+}
+nav {
+    position: fixed;
+    width: 90%;
+    height: min-content;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #1b2430;
+    padding: 20px 80px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+  }
+  
+#navbar li a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #fff;
+    transition: 0.3s ease-in-out
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+  color: #17cf97;
+}
+
+#navbar li a:hover::after,
+#navbar li a.active::after {
+  content: "";
+  width: 30%;
+  height: 2px;
+  background: #cf0e0e;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+}
+.video-up {
+    font-family: Arial, sans-serif;
+    background-color:  rgb(50, 77, 101);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    margin-top: 10%;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed #040303;
+    border-radius: 5px;
+    padding: 20px;
+    width: 60%;
+    border: 2px dashed #040303;
+    border-radius: 5px;
+    padding: 130px 100px;
+    align-items: center;
+    
+    justify-content: center;
+}
+
+.file-upload-container {
+    /* Add these styles to display label and button in one line */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px; /* Adjust the gap as needed */
+  }
+  
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.upload-label {
+    display: inline-block;
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px 0;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.upload-label:hover {
+    background-color: #09ca13;
+}
+
+.upload-button {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.upload-button:hover {
+    background-color: #09ca13;
+}
